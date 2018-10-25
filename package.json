@@ -1,0 +1,72 @@
+{
+    "name": "angular-multi-module",
+    "version": "1.0.0",
+    "description": "A boilerplate for angular multi module configuration",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint ./**/src",
+        "e2e": "ng e2e",
+        "prettier": "prettier \"./**/src/{app,environments,assets}/**/*.{ts,js,css,scss}\" --write",
+        "prettier:check": "prettier --list-different \"./**/src/{app,environments,assets}/**/*.{ts,js,css,scss}\"",
+        "precommit": "lint-staged",
+        "prepush": "ng lint --quiet  ./**/src"
+    },
+    "lint-staged": {
+        "*.{ts,js,css,scss}": [
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "^6.0.2",
+        "@angular/common": "^6.0.2",
+        "@angular/compiler": "^6.0.2",
+        "@angular/core": "^6.0.2",
+        "@angular/forms": "^6.0.2",
+        "@angular/http": "^6.0.2",
+        "@angular/platform-browser": "^6.0.2",
+        "@angular/platform-browser-dynamic": "^6.0.2",
+        "@angular/router": "^6.0.2",
+        "@ngrx/db": "^2.1.0",
+        "@ngrx/effects": "^6.0.1",
+        "@ngrx/router-store": "^6.0.1",
+        "@ngrx/store": "^6.0.1",
+        "@ngrx/store-devtools": "^6.0.1",
+        "@ngx-translate/core": "^10.0.2",
+        "core-js": "^2.5.4",
+        "ng2-webstorage": "^2.0.0",
+        "ngrx-store-freeze": "^0.2.3",
+        "ngrx-store-localstorage": "^5.0.0",
+        "ngx-cookie": "^4.0.2",
+        "rxjs": "^6.0.0",
+        "rxjs-compat": "^6.2.0",
+        "zone.js": "^0.8.26"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "~0.6.3",
+        "@angular/cli": "~6.0.3",
+        "@angular/compiler-cli": "^6.0.2",
+        "@angular/language-service": "^6.0.2",
+        "@types/jasmine": "~2.8.6",
+        "@types/jasminewd2": "~2.0.3",
+        "@types/node": "~8.9.4",
+        "codelyzer": "~4.2.1",
+        "jasmine-core": "~2.99.1",
+        "jasmine-spec-reporter": "~4.2.1",
+        "karma": "~1.7.1",
+        "karma-chrome-launcher": "~2.2.0",
+        "karma-coverage-istanbul-reporter": "~1.4.2",
+        "karma-jasmine": "~1.1.1",
+        "karma-jasmine-html-reporter": "^0.2.2",
+        "lint-staged": "^7.1.2",
+        "prettier": "1.13.2",
+        "protractor": "~5.3.0",
+        "ts-node": "~5.0.1",
+        "tslint": "~5.9.1",
+        "typescript": "~2.7.2"
+    }
+}

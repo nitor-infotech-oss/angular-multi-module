@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.eol": "\n",
+    "local-history.daysLimit": 3,
+    "editor.multiCursorModifier": "alt"
+  }
+}
