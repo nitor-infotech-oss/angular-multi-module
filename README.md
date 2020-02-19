@@ -1,5 +1,7 @@
 # Angular multi-module boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nitor-infotech-oss/angular-multi-module.svg)](https://greenkeeper.io/)
+
 This experimental boilerplate is useful to create multiple angular project under single configuration
 
 1. Create and execute multiple angular projects (rather modules) under single configuration
