@@ -40,7 +40,7 @@
         "core-js": "^2.5.4",
         "ng2-webstorage": "^2.0.0",
         "ngrx-store-freeze": "^0.2.3",
-        "ngrx-store-localstorage": "^5.0.0",
+        "ngrx-store-localstorage": "^10.1.1",
         "ngx-cookie": "^4.0.2",
         "rxjs": "^6.0.0",
         "rxjs-compat": "^6.2.0",
